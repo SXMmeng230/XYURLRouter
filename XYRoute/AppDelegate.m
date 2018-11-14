@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "XYURLRouter.h"
 @interface AppDelegate ()
 
 @end
@@ -20,6 +20,29 @@
     return YES;
 }
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    NSLog(@"url : %@",url);
+    [XYURLRouter pushWithURL:url.absoluteString animated:YES];
+    NSLog(@"sourceApplication : %@",sourceApplication);
+    
+    return YES;
+}
+/**
+ *  当一个指定的URL资源打开时调用，iOS9之后
+ *
+ *  @param url     指定的url
+ *  @param options 打开选项，其中通过UIApplicationOpenURLOptionsSourceApplicationKey获得sourceApplication
+ */
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options
+{
+    NSLog(@"url : %@",url);
+    [XYURLRouter pushWithURL:url.absoluteString animated:YES];
+
+//    NSString *sourceApplication = options[UIApplicationOpenURLOptionsSourceApplicationKey];
+    
+    return YES;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA83AFF8219BBE9700DAA1FC /* UIViewController+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = AA83AFF4219BBE9600DAA1FC /* UIViewController+Router.m */; };
+		AA83AFFF219BC06A00DAA1FC /* XYURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA83AFFD219BC06A00DAA1FC /* XYURLRouter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AACFF58F20EB0872005428EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFF58E20EB0872005428EF /* AppDelegate.m */; };
 		AACFF59220EB0872005428EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFF59120EB0872005428EF /* ViewController.m */; };
 		AACFF59520EB0872005428EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACFF59320EB0872005428EF /* Main.storyboard */; };
@@ -15,6 +17,12 @@
 		AACFF59D20EB0873005428EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFF59C20EB0873005428EF /* main.m */; };
 		AACFF5A720EB0873005428EF /* XYRouteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFF5A620EB0873005428EF /* XYRouteTests.m */; };
 		AACFF5B220EB0873005428EF /* XYRouteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFF5B120EB0873005428EF /* XYRouteUITests.m */; };
+		AACFF5C420EB09A3005428EF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFF5C320EB09A3005428EF /* TestViewController.m */; };
+		AACFF5CA20EB575B005428EF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFF5C920EB575B005428EF /* Person.m */; };
+		AACFF5CD20EB5F61005428EF /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFF5CC20EB5F61005428EF /* Son.m */; };
+		AACFF5CF20EB6448005428EF /* Route.plist in Resources */ = {isa = PBXBuildFile; fileRef = AACFF5CE20EB6448005428EF /* Route.plist */; };
+		AAE22FDE20EB6FD600A0C78B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE22FDD20EB6FD600A0C78B /* WebViewController.m */; };
+		AAE22FE420EC60CB00A0C78B /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE22FE320EC60CB00A0C78B /* Man.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA83AFF4219BBE9600DAA1FC /* UIViewController+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Router.m"; sourceTree = "<group>"; };
+		AA83AFF6219BBE9600DAA1FC /* UIViewController+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Router.h"; sourceTree = "<group>"; };
+		AA83AFFD219BC06A00DAA1FC /* XYURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYURLRouter.m; sourceTree = "<group>"; };
+		AA83AFFE219BC06A00DAA1FC /* XYURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYURLRouter.h; sourceTree = "<group>"; };
 		AACFF58A20EB0872005428EF /* XYRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACFF58D20EB0872005428EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AACFF58E20EB0872005428EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +63,17 @@
 		AACFF5AD20EB0873005428EF /* XYRouteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYRouteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACFF5B120EB0873005428EF /* XYRouteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYRouteUITests.m; sourceTree = "<group>"; };
 		AACFF5B320EB0873005428EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACFF5C220EB09A3005428EF /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		AACFF5C320EB09A3005428EF /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		AACFF5C820EB575B005428EF /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AACFF5C920EB575B005428EF /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AACFF5CB20EB5F61005428EF /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		AACFF5CC20EB5F61005428EF /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+		AACFF5CE20EB6448005428EF /* Route.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Route.plist; sourceTree = "<group>"; };
+		AAE22FDC20EB6FD600A0C78B /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AAE22FDD20EB6FD600A0C78B /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		AAE22FE220EC60CB00A0C78B /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		AAE22FE320EC60CB00A0C78B /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +124,21 @@
 		AACFF58C20EB0872005428EF /* XYRoute */ = {
 			isa = PBXGroup;
 			children = (
+				AAE22FE520EC668E00A0C78B /* Route */,
 				AACFF58D20EB0872005428EF /* AppDelegate.h */,
 				AACFF58E20EB0872005428EF /* AppDelegate.m */,
+				AACFF5C220EB09A3005428EF /* TestViewController.h */,
+				AACFF5C320EB09A3005428EF /* TestViewController.m */,
+				AAE22FDC20EB6FD600A0C78B /* WebViewController.h */,
+				AAE22FDD20EB6FD600A0C78B /* WebViewController.m */,
 				AACFF59020EB0872005428EF /* ViewController.h */,
 				AACFF59120EB0872005428EF /* ViewController.m */,
+				AACFF5C820EB575B005428EF /* Person.h */,
+				AACFF5C920EB575B005428EF /* Person.m */,
+				AACFF5CB20EB5F61005428EF /* Son.h */,
+				AACFF5CC20EB5F61005428EF /* Son.m */,
+				AAE22FE220EC60CB00A0C78B /* Man.h */,
+				AAE22FE320EC60CB00A0C78B /* Man.m */,
 				AACFF59320EB0872005428EF /* Main.storyboard */,
 				AACFF59620EB0873005428EF /* Assets.xcassets */,
 				AACFF59820EB0873005428EF /* LaunchScreen.storyboard */,
@@ -130,6 +164,18 @@
 				AACFF5B320EB0873005428EF /* Info.plist */,
 			);
 			path = XYRouteUITests;
+			sourceTree = "<group>";
+		};
+		AAE22FE520EC668E00A0C78B /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				AA83AFF6219BBE9600DAA1FC /* UIViewController+Router.h */,
+				AA83AFF4219BBE9600DAA1FC /* UIViewController+Router.m */,
+				AA83AFFE219BC06A00DAA1FC /* XYURLRouter.h */,
+				AA83AFFD219BC06A00DAA1FC /* XYURLRouter.m */,
+				AACFF5CE20EB6448005428EF /* Route.plist */,
+			);
+			path = Route;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +283,7 @@
 			files = (
 				AACFF59A20EB0873005428EF /* LaunchScreen.storyboard in Resources */,
 				AACFF59720EB0873005428EF /* Assets.xcassets in Resources */,
+				AACFF5CF20EB6448005428EF /* Route.plist in Resources */,
 				AACFF59520EB0872005428EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +309,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE22FE420EC60CB00A0C78B /* Man.m in Sources */,
+				AA83AFFF219BC06A00DAA1FC /* XYURLRouter.m in Sources */,
+				AACFF5CD20EB5F61005428EF /* Son.m in Sources */,
 				AACFF59220EB0872005428EF /* ViewController.m in Sources */,
+				AA83AFF8219BBE9700DAA1FC /* UIViewController+Router.m in Sources */,
+				AACFF5CA20EB575B005428EF /* Person.m in Sources */,
+				AAE22FDE20EB6FD600A0C78B /* WebViewController.m in Sources */,
 				AACFF59D20EB0873005428EF /* main.m in Sources */,
 				AACFF58F20EB0872005428EF /* AppDelegate.m in Sources */,
+				AACFF5C420EB09A3005428EF /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,12 +488,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4P6F5696H;
 				INFOPLIST_FILE = XYRoute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = www.XYRoute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingyuanauto.XYAuto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,12 +505,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4P6F5696H;
 				INFOPLIST_FILE = XYRoute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = www.XYRoute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingyuanauto.XYAuto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
